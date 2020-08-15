@@ -1,0 +1,19 @@
+#navbar-title {
+    font-family: 'Delius', cursive;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.navbar-font {
+    font-family: 'Delius', cursive;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.bubble {
+    position: fixed;
+    height: 1000px;
+    width: 100%;
+    background-image: url('double-bubble-outline.png');
+    z-index: -1;
+}
