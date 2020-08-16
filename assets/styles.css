@@ -1,12 +1,12 @@
 .header-title {
-    font-family: 'Delius', cursive;
-    font-weight: 900;
-    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .navbar-font {
-    font-family: 'Delius', cursive;
-    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
     font-size: 16px;
 }
 
@@ -19,22 +19,37 @@
 }
 
 .img-max {
-    max-width: 300px;
-    width: 100%;
+    max-width: 350px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .container-lg {
     display: block;
-    padding: 100px;
-    border: 10px;
-    border-color: #ab00ce;
+    padding: 50px;
+    background-color: white;
     justify-content: center;
+
 }
 
 h1 {
     text-align: center;
 }
+
 p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
     margin-top: 20px;
+}
+
+ul {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+#button {
+    background-color: #ab00ce;
+    margin-top: 10px;
+    justify-content: center;
+    border: none
 }
