@@ -1,4 +1,4 @@
-#navbar-title {
+.header-title {
     font-family: 'Delius', cursive;
     font-weight: 900;
     font-size: 28px;
@@ -15,5 +15,26 @@
     height: 1000px;
     width: 100%;
     background-image: url('double-bubble-outline.png');
-    z-index: -1;
+    z-index: -15;
+}
+
+.img-max {
+    max-width: 300px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container-lg {
+    display: block;
+    padding: 100px;
+    border: 10px;
+    border-color: #ab00ce;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    margin-top: 20px;
 }
